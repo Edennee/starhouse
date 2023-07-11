@@ -1,0 +1,141 @@
+body{
+    font-family: 'Inter', sans-serif !important;
+}
+.apartments_about_main_images_one img, .apartments_about_main_images_two img{
+    border-radius: 15px;
+}
+
+.apartments_about{
+    margin-top: 179px;
+}
+ .apartments_about{
+    padding: 2px   30px;
+}
+
+.apartments_about_back p {
+    padding-left: 25px;
+    color: rgba(91, 91, 91, 1);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.apartments_about_id p {
+    color: rgba(91, 91, 91, 0.3);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0 !important;
+}
+.apartments_about_main {
+    margin-top: 43px;
+    padding: 0 !important;
+}
+.apartments_about_main_images_row{
+    flex-direction: column;
+}
+.apartments_about_main_images_one {
+    width: 100%;
+
+}
+.apartments_about_main_images_one img{
+    width: 100%;
+    display: block;
+}
+.apartments_about_main_images_two {
+    margin: 26px 0;
+    width: 100%;
+}
+.apartments_about_main_images_two img {
+    width: 150px;
+    margin-right: 26px;
+}
+
+
+
+.apartments_about_main_description div{
+    margin-left: 35px;
+}
+.apartments_about_address{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    margin-bottom: 19px;
+}
+.apartments_about_price_title{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 0;
+}
+.apartments_about_price {
+    color: rgba(255, 174, 78, 1);
+    font-size: 45px;
+    font-weight: 550;
+    margin-bottom: 25px;
+}
+.apartments_about_info{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+.apartments_about_info span{
+    font-weight: 400;
+}
+.apartments_about_info_contact{
+    margin-top: 45px;
+}
+
+
+/* Description section*/
+.apartments_info{
+    margin-top: 115px;
+    padding: 2px 30px;
+}
+.apartments_info_title{
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(91, 91, 91, 1);
+    margin-bottom: 44px;
+}
+.apartments_info_paragraphs{
+    margin-bottom: 100px ;
+}
+.apartments_info_paragraph{
+    font-weight: 300;
+    font-size: 17px;
+    color: rgba(91, 91, 91, 0.6);
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+
+
+
+
+@media(max-width: 1050px){
+    .apartments_about_back p {
+        font-size: 20px;
+    }
+    .apartments_about_main_images_two img {
+        width: 100px;
+        margin-right: 10px;
+    }
+    .apartments_about{
+        margin-top: 100px;
+    }
+    .apartments_about_info{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .apartments_about_price {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .apartments_about_info_contact{
+        margin-top: 30px;
+    }
+    .apartments_about_main_description div{
+        margin-left: 0;
+    }
+}
+

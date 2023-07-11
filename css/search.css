@@ -1,0 +1,117 @@
+.search__result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.search__result .offers_card {
+    margin-bottom: 30px;
+}
+.pagination {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+.pagination__list{
+    display: flex;
+    align-items: center;
+}
+.pagination__item > a {
+    font-family: 'Inter', sans-serif;
+    color: #5B5B5B;
+    padding: 0 5px;
+    font-size: 22px;
+    transition-duration: .4s;
+}
+.pagination__item:first-child > a {
+    position: relative;
+    top: 1px;
+    font-size: 16px;
+    margin-right: 10px;
+    opacity: .6;
+}
+.pagination__item:last-child > a {
+    position: relative;
+    top: 1px;
+    font-size: 16px;
+    margin-left: 10px;
+    opacity: .6;
+}
+.pagination__item:nth-child(5) > a:after {
+    content: '...';
+    margin-left: 10px;
+}
+.pagination__active > a {
+    color: #FFAE4E;
+}
+.pagination__item > a:hover {
+    transition-duration: .4s;
+    color: #FFAE4E;
+}
+@media (max-width: 1320px) and (min-width: 1201px){
+    .search__result .offers_card {
+        max-width: 280px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1006px){
+    .search__result {
+        justify-content: space-around;
+    }
+    .search__result .offers_card {
+        max-width: 308px;
+    }
+}
+@media (max-width: 1050px) {
+    .section_order-filter {
+        margin-top: 53px;
+        border: none;
+    }
+}
+@media (max-width: 1005px) and (min-width: 905px){
+    .search__result .offers_card {
+        max-width: 280px;
+    }
+    .search__result {
+        grid-template-columns: repeat(3,2fr);
+    }
+}
+@media (max-width: 903px) and (min-width: 687px){
+    .search__result {
+        justify-content: space-around;
+    }
+    .search__result .offers_card {
+        max-width: 308px;
+    }
+}
+
+
+@media (max-width: 685px) and (min-width: 626px) {
+    .search__result .offers_card {
+        max-width: 280px;
+    }
+}
+@media (max-width: 625px) {
+    .search__result .offers_card {
+        width: 100%;
+    }
+}
+/*@media (max-width: 441px) {*/
+/*    .search__result {*/
+/*        width: 300px;*/
+/*        grid-template-columns: repeat(1,1fr);*/
+/*        margin: 0 auto;*/
+/*    }*/
+/*    .search__result .offers_card {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+@media (max-width: 348px) {
+    .search__result {
+        width: 280px;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+    }
+    .search__result .offers_card {
+        width: 100%;
+    }
+}
